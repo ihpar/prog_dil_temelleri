@@ -74,6 +74,7 @@ tersSirala = reverse . sort
 tersSirali = tersSirala [5, 1, 2]
 
 -- Folding
+-- JS: Reduce
 -- foldr fun a [x1, x2, ..., xn] = fun x1 (fun x2 (fun x3 (... fun xn a)))
 
 ucArtiBes = (+) 3 5
