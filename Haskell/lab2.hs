@@ -1,6 +1,4 @@
 import Data.List
-import Distribution.Simple.Utils (xargs)
-import Data.Time.Format.ISO8601 (yearFormat)
 
 squared :: Num a => a -> a
 squared x = x ^ 2
