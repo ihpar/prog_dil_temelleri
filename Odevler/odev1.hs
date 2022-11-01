@@ -7,15 +7,20 @@
 * Soru metinleri ve örnek input outputlar her soruda ayrı ayrı verilmiştir.
 
 * Dosya içerisinde değişiklik yapabileceğiniz alanlar "Değiştirilebilir alan X'in başlangıcı" ve
-"Değiştirilebilir alan X'in bitişi" ifadeleri arasında yer almaktadır. Bu alanların dışında değişiklik yapmayınız.
+"Değiştirilebilir alan X'in bitişi" ifadeleri arasında yer almaktadır. 
+Bu alanların dışında değişiklik yapmayınız.
 
 * Değişiklik yapılabilir alanlarda gerektiği durumlarda istediğiniz kadar yardımcı fonksiyon veya veri tipi oluşturabilirsiniz.
 
-* Dosyayı çalıştırdığınızda test case'ler çalışacak ve olası puanınızı ekrana yazacaktır. Ancak bu puan son puanınız olmayabilir. Ödeviniz değerlendirilirken başka test case'ler kullanılacaktır. Buradaki test case'lerin amacı size yardımcı olmaktır.
+* Dosyayı çalıştırdığınızda test case'ler çalışacak ve olası puanınızı ekrana yazacaktır. 
+Ancak bu puan son puanınız olmayabilir. Ödeviniz değerlendirilirken başka test case'ler kullanılacaktır. 
+Buradaki test case'lerin amacı size yardımcı olmaktır.
 
 * Kod paylaşımı yapan tüm taraflar dönem boyu verilen tüm ödevlerden 0 alırlar.
 
-* Dosyayı çalışabilir halde teslim etmeniz gerekmektedir. İçinde yazmış olduğunuz hatalı ifadelerden dolayı çalıştırılamayan ödevler içinde doğru çözümler olsa bile 0 alırlar (Black Box Testing).
+* Dosyayı çalışabilir halde teslim etmeniz gerekmektedir. 
+İçinde yazmış olduğunuz hatalı ifadelerden dolayı çalıştırılamayan ödevler içinde doğru çözümler olsa bile 
+0 alırlar (Black Box Testing).
 
 * Ödevinizi email ile 08.11.2022 Saat 23:59'a kadar. ismail hakki parlak'a gönderiniz.
 Geç gönderilen ödevler değerlendirilmeye alınmayacaktır.
