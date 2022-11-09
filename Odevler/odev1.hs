@@ -153,20 +153,27 @@ icliKofte  _ = List[]
 
 testler :: [Bool]
 testler = [
-    enBuyuk [1, 3, 3, 7, 2, 7] == 7,
-    enBuyuk [4] == 4,
-    ucluFibo 5 == 5,
-    ucluFibo 10 == 105,
-    ortasi [3, 3, 1] == 3,
-    ortasi [1, 5, 6, 7] == 5.5,
-    tamBolenler 3 == [1, 3],
-    tamBolenler 15 == [1, 3, 5, 15],
-    buyukleriBul 3 [1, 7, 5] == [7, 5],
-    null $ buyukleriBul 1 [1, 1, 1],
-    kimBirinci [("Ali", 50), ("Veli", 60), ("Ayse", 90), ("Fatma", 80)] == "Ayse",
-    kimBirinci [("Fatma", 80)] == "Fatma",
-    icliKofte [1] == List [Elem 1],
-    icliKofte [3, 7, 2] == List [Elem 3, List [Elem 7, List [Elem 2]]]
+    enBuyuk [1] == 1,
+    enBuyuk [5, 1] == 5,
+    enBuyuk [4, 4, 4] == 4,
+    ucluFibo 21 == 85525,
+    ucluFibo 1 == 1,
+    ucluFibo 13 == 653,
+    ortasi [1] == 1,
+    ortasi [1, 6, 7, 7] == 6.5,
+    ortasi [1, 6, 8, 7, 7] == 8,
+    tamBolenler 2 == [1, 2],
+    tamBolenler 21 == [1, 3, 7, 21],
+    tamBolenler 24 == [1, 2, 3, 4, 6, 8, 12, 24],
+    buyukleriBul 3 [3, 4, 5] == [4, 5] || buyukleriBul 3 [3, 4, 5] == [5, 4],
+    buyukleriBul 1 [4, 5] == [4, 5] || buyukleriBul 1 [4, 5] == [5, 4],
+    null $ buyukleriBul 4 [4],
+    kimBirinci [("A", 50), ("B", 60), ("C", 55)] == "B",
+    kimBirinci [("X", 10)] == "X",
+    kimBirinci [("A", 90), ("B", 95), ("C", 100), ("D", 99)] == "C",
+    icliKofte [8] == List [Elem 8],
+    icliKofte [13, 17, 12] == List [Elem 13, List [Elem 17, List [Elem 12]]],
+    icliKofte [1, 2] == List [Elem 1, List [Elem 2]]
   ]
 
 puan :: Integer
