@@ -118,3 +118,10 @@ ambas --> [a], ambas.
 ambas --> ambas, [a].
 
 % phrase(ambas, "aaa"). HATA! Çıkmak için a ENTER.
+
+% L = dogru formatlı parantezler = {(), (()), ((()))()(()), ...}
+par --> [].
+par --> ['('], par, [')'], par.
+
+% phrase(par, "(())()()((()))").
+% len(L, 4), !, phrase(par, L).
