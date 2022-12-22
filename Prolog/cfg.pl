@@ -110,3 +110,11 @@ anbtn --> [].
 anbtn --> [a], anbtn, [b, b].
 
 % phrase(anbtn, L).
+
+% L = a^n, n >= 1
+% Muglak, ambiguous
+ambas --> [].
+ambas --> [a], ambas.
+ambas --> ambas, [a].
+
+% phrase(ambas, "aaa"). HATA! Çıkmak için a ENTER.
