@@ -89,7 +89,7 @@ yedilerinSayisi = foldr (\x sayi -> if x == 7 then sayi + 1 else sayi) 0 [3, 7, 
 
 carpimlar = foldl (*) 1 [3, 5, 7] -- ((1 * 3) * 5) * 7
 
-tersi = foldl (\acc x -> x : acc) [] [1, 2, 3] -- f 3 (f 2 (f [] 1))
+tersi = foldl (\acc x -> x : acc) [] [1, 2, 3] -- f (f (f [] 1) 2) 3
 
 main = do
   print ucun1Fazlasi
