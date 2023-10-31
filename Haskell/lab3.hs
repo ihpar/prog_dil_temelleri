@@ -27,7 +27,8 @@ karesinin2Kati x =
   let y = x * x
    in y * 2
 
--- Type declaration: Mevcut tiplere yeni isim atar
+-- Type declaration: Mevcut tiplere yeni isim atar.
+-- Type declaration'lar recursive olamaz.
 
 type Coord = (Float, Float)
 
