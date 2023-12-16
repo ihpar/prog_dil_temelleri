@@ -39,7 +39,7 @@ ara(Ad, Numara, [_ | Gerisi]) :- ara(Ad, Numara, Gerisi).
 % query: ara(veli, Tel, [kisi(ali, 123), kisi(veli, 234), kisi(ayse, 123)]).
 
 ara_2(Ad, Numara, [kisi(Ad, Numara) | Gerisi]) :- !.
-ara_2(Ad, Numara, [_ | Gerisi]) :- !, ara_2(Ad, Numara, Gerisi).
+ara_2(Ad, Numara, [_ | Gerisi]) :- ara_2(Ad, Numara, Gerisi).
 
 % query'ler: elemani(2, [1, 2, 3, 2, 4]).
 % izlemeyi başlatma "trace."
