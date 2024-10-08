@@ -28,7 +28,7 @@ main :: IO()
 main = printf "%s %c %s %d %d %f %f" (show b) c s i si f d
 -}
 
-{- 
+{-
 -- Aritmetik Islemler
 a :: Int
 a = 22
@@ -76,10 +76,10 @@ yas 52 = "Olgun"
 yas _ = "Bilemedim"
 
 y17 = yas 17
-y55 = yas 55 
+y55 = yas 55
 
 yas2 :: Int -> String
-yas2 x 
+yas2 x
   | x == 17 = "Genc"
   | x == 35 = "Orta"
   | x == 52 = "Olgun"
@@ -94,7 +94,7 @@ fact x = x * fact (x-1)
 c = fact 5
 
 fib :: Int -> Int -- 1, 1, 2, 3, 5, 8, 13, ...
-fib x 
+fib x
   | x == 1 = 1
   | x == 2 = 1
   | otherwise = fib (x-1) + fib (x-2)
